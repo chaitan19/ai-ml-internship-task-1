@@ -1,0 +1,10 @@
+flowchart LR
+ A[Problem definition] --> B[Data collection]
+ B --> C[Data preparation]
+ C --> D[Exploratory analysis]
+ D --> E[Feature engineering]
+ E --> F[Model training]
+ F --> G[Evaluation]
+ G -->|Needs improvement| E
+ G -->|Ready| H[Deployment]
+ H --> I[Monitoring and iteration]

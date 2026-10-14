@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+work_student/
+work_iris/
+work_student.zip
+work_iris.zip
+src/practice_note.txt
+
